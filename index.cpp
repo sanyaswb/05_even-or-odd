@@ -2,5 +2,6 @@
 #include <string>
 
 std::string evenOrOdd(int num) {
-	return "0";
+	return num % 2 == 1 ? "ODD" : num == 0 ? "0" : "EVEN";
 }
+
